@@ -21,7 +21,6 @@
     "**/*.md",
     "**/*.json",
     "node_modules",
-    "bower.json",
     "bower_components",
     "test",
     "tests"
