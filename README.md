@@ -13,7 +13,7 @@ Browsers Support:
 - Edge
 - IE10+
 
-This mixins old browsers flexbox syntax.
+This mixins supports old browsers flexbox syntax.
 
 ## Licence
 
