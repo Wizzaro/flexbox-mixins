@@ -1,8 +1,8 @@
-# Wizzaro Flexbox Mixins
+# Wizzaro Sass Flexbox Mixins
 
 ## Basic information
 
-This is a set of mixins for CSS Flexible Box Layout.
+This is a set of sass mixins for CSS Flexible Box Layout.
 For more information about layout look on: https://www.w3.org/TR/css-flexbox-1/
 
 Browsers Support:
