@@ -16,7 +16,7 @@ Browsers Support:
 This mixins supports old browsers flexbox syntax.
 
 ## Install
-`brew install wizzaro-flexbox-mixins`
+`brew install wizzaro-sass-flexbox-mixins`
 
 ## Licence
 
