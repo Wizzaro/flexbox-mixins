@@ -27,93 +27,52 @@ This mixins supports old browsers flexbox syntax.
 ```
 #### Flex direction
 ```
-@include flex-direction([$value]) //default $value: row
-@include flex-direction-row();
-@include flex-direction-row-reverse();
-@include flex-direction-column();
-@include flex-direction-column-reverse();
+@include flex-direction([$value: row])
 ```
 #### Flex wrap
 ```
-@include flex-wrap([$value]); //default $value: nowrap
-@include flex-wrap-nowrap();
-@include flex-wrap-wrap();
-@include flex-wrap-wrap-reverse();
+@include flex-wrap([$value: nowrap]);
 ```
 #### Flex flow
 ```
-@include flex-flow([$direction][, $wrap]); //default $direction: row, $wrap: nowrap
-@include flex-flow-row-nowrap();
-@include flex-flow-row-wrap();
-@include flex-flow-row-wrap-reverse();
-@include flex-flow-row-reverse-nowrap();
-@include flex-flow-row-reverse-wrap();
-@include flex-flow-row-reverse-wrap-reverse();
-@include flex-flow-column-nowrap();
-@include flex-flow-column-wrap();
-@include flex-flow-column-wrap-reverse();
-@include flex-flow-column-reverse-nowrap();
-@include flex-flow-column-reverse-wrap();
-@include flex-flow-column-reverse-wrap-reverse();
+@include flex-flow([$direction: row][, $wrap: nowrap]);
 ```
 #### Justify content
 ```
-@include justify-content([$value]); //default $value: flex-start
-@include justify-content-flex-start();
-@include justify-content-flex-end();
-@include justify-content-center();
-@include justify-content-space-between();
-@include justify-content-space-around();
+@include justify-content([$value: flex-start]);
 ```
 #### Align items
 ```
-@include align-items([$value]); //default $value: stretch
-@include align-items-flex-start();
-@include align-items-flex-end();
-@include align-items-center();
-@include align-items-baseline();
-@include align-items-stretch();
+@include align-items([$value: stretch]);
 ```
 #### Align content
 ```
-@include align-content([$value]); //default $value: stretch
-@include align-content-flex-start();
-@include align-content-flex-end();
-@include align-content-center();
-@include align-content-space-between();
-@include align-content-space-around();
-@include align-content-stretch();
+@include align-content([$value: stretch]);
 ```
 ### Mixins for the Item Element
 #### Align self
 ```
-@include align-self([$value]); //default $value: auto
-@include align-self-auto();
-@include align-self-flex-start();
-@include align-self-flex-end();
-@include align-self-center();
-@include align-self-baseline();
-@include align-self-stretch();
+@include align-self([$value: auto]);
 ```
 #### Order
 ```
-@include order([$int]); //default $int: 0
+@include order([$int: 0]);
 ```
 #### Flex grow
 ```
-@include flex-grow([$int]); //default $int: 0
+@include flex-grow([$int: 0]);
 ```
 #### Flex shrink
 ```
-@include flex-shrink([$int]); //default $int: 0
+@include flex-shrink([$int: 0]);
 ```
 #### Flex basis
 ```
-@include flex-basis([$value]); //default $value: auto
+@include flex-basis([$value: auto]);
 ```
 #### Flex
 ```
-@include flex([$flex-grow][, $flex-shrink][, $flex-basis]); //default $flex-grow: 0, $flex-shrink: 0, $flex-basis: auto
+@include flex([$flex-grow: 0][, $flex-shrink: 0][, $flex-basis: auto]);
 ```
 ## Licence
 
